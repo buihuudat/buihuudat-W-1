@@ -34,6 +34,7 @@ img {
   padding-right: $width-nav;
   background: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/430f78f5-85f2-4fe7-a800-84b0379dde92/ddzpzrr-19002fa3-aea5-421c-8c75-f72959c4d1c8.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzQzMGY3OGY1LTg1ZjItNGZlNy1hODAwLTg0YjAzNzlkZGU5MlwvZGR6cHpyci0xOTAwMmZhMy1hZWE1LTQyMWMtOGM3NS1mNzI5NTljNGQxYzgucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.Tz5T-4lAUXa-G8Hz1eKuYiREwo7GHGIsMJV1A2uzJik') no-repeat center center fixed;
   background-size: cover;
+  min-height: 100vh;
 }
 
 .active {
