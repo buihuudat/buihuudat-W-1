@@ -1,6 +1,11 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 function Post() {
+  const [action, setAction] = useState(false);
+  const [countLike, setCountLike] = useState(0);
+  const [countComment, setCountComment] = useState(0);
+  const [countShare, setCountShare] = useState(0);
+
   return (
     <div className="Post">
       <div className="Post__wrap">
@@ -27,16 +32,16 @@ function Post() {
           </div>
           <div className="Post__wrap-box-actions">
             <div className="Post__wrap-box-actions-a" title='Like this post'>
-              <i class="uil uil-heart"></i>
-              <span>1</span>
+              <i class="uil uil-heart" onClick={() => setCountLike(countLike + 1)} ></i>
+              <span>{countLike}</span>
             </div>
             <div className="Post__wrap-box-actions-a" title='Wirte a commtent...'>
               <i class="uil uil-comment-alt"></i>
-              <span>1</span>
+              <span>{countComment}</span>
             </div>
             <div className="Post__wrap-box-actions-a" title='Share this post'>
               <i class="uil uil-share"></i>
-              <span>1</span>
+              <span>{countShare}</span>
             </div>
           </div>
         </div>
