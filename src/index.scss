@@ -47,6 +47,11 @@ img {
   backdrop-filter: blur(55px);
 }
 
+hr {
+  border: none;
+  border-bottom: 1px solid #ccc;
+}
+
 ::-webkit-scrollbar {
   width: 20px;
 }

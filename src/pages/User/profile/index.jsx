@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
+import Post from '../post';
 
 import './style.scss';
 
@@ -64,7 +65,9 @@ function UserProfile() {
               </div>
             </div>
           </div>
-          <div className="UP__content-right"></div>
+          <div className="UP__content-right">
+            <Post />
+          </div>
         </div>
       </div>
     </div>
