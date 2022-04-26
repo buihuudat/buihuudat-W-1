@@ -1,11 +1,7 @@
 import UserProfile from "./profile";
+import Timeline from "./profile/Timeline";
 
-const User = () => {
-  return (
-    <div className="User">
-      <UserProfile />
-    </div>
-  )
+export { 
+  UserProfile,
+  Timeline
 }
-
-export default User;

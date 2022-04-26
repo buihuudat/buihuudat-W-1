@@ -159,7 +159,7 @@ function RightNav() {
                   {contact.name}
                 </div>
                 <div className="RightNav__contacts-items__item__active">
-                  <i class={`fa-solid fa-circle ${contact.active == 1 ? 'active-color' : ''}`}></i>
+                  <i className={`fa-solid fa-circle ${contact.active == 1 ? 'active-color' : ''}`}></i>
                 </div>
               </li>
             ))}

@@ -1,6 +1,6 @@
 import Home from "./Home";
 
-import User from './User'
+import * as User from './User';
 
 export {
   Home,

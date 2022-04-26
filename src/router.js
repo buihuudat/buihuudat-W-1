@@ -7,9 +7,15 @@ import './index.scss';
 const Router = () => {
   return (
     <div className='container'>
-      <Routes className="blur">
-        <Route path="/" element={<Page.Home />} />
-        <Route path="/:slug/profile" element={<Page.User />} />
+      <Routes>
+        <Route index element={<Page.Home />} />
+        <Route path=":slug/profile" element={<Page.User.UserProfile />}>
+          <Route index element={<Page.User.Timeline />} />
+          <Route path="about" element={<Page.Home/>} />
+          <Route path="friends" element={<Page.User.Timeline />} />
+          <Route path="photos" element={<Page.User.Timeline />} />
+          <Route path="more" element={<Page.User.Timeline />} />
+        </Route>
       </Routes>
     </div>
   )

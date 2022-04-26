@@ -32,15 +32,15 @@ function Post() {
           </div>
           <div className="Post__wrap-box-actions">
             <div className="Post__wrap-box-actions-a" title='Like this post'>
-              <i class="uil uil-heart" onClick={() => setCountLike(countLike + 1)} ></i>
+              <i className="uil uil-heart" onClick={() => setCountLike(countLike + 1)} ></i>
               <span>{countLike}</span>
             </div>
             <div className="Post__wrap-box-actions-a" title='Wirte a commtent...'>
-              <i class="uil uil-comment-alt"></i>
+              <i className="uil uil-comment-alt"></i>
               <span>{countComment}</span>
             </div>
             <div className="Post__wrap-box-actions-a" title='Share this post'>
-              <i class="uil uil-share"></i>
+              <i className="uil uil-share"></i>
               <span>{countShare}</span>
             </div>
           </div>

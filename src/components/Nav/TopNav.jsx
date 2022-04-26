@@ -2,10 +2,14 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 function TopNav() {
+  const [value, setValue] = useState('');
   const [show, setShow] = useState(false);
   const [showDRD, setShowDRD] = useState(true);
 
-  const handleInput = (e) => e.target.value.length > 0 ? setShow(true) : setShow(false);
+  const handleInput = (e) => {
+    setValue(e.target.value);
+    value.length > 0 ? setShow(true) : setShow(false)
+  };
   const handleClick = () => setShowDRD(!showDRD);
   
   return (
@@ -13,7 +17,7 @@ function TopNav() {
       <div className="TopNav__wrap">
         <div className="TopNav__wrap-search">
           <button hidden={show} ><i className="fas fa-search" /></button>
-          <input type="text" className="TopNav__wrap-search-input" onChange={e => handleInput(e)} placeholder="Search" />
+          <input type="text" className="TopNav__wrap-search-input" value={value} onChange={handleInput} placeholder="Search" />
           <button hidden={!show} ><i className="fas fa-search" style={{color: "#0060A1", fontWeight: "600", cursor: "pointer", fontSize: '1.5rem'}} /></button>
         </div>
         <div className="TopNav__wrap-check">

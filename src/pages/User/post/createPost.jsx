@@ -5,7 +5,7 @@ function createPost() {
     console.log(document.getElementsByClassName('CP__wrap-box-header-button'))
   }
   return (
-    <div className="cp">
+    <div className="CP">
       <div className="CP__wrap">
         <div className="CP__wrap-box">
           <div className="CP__wrap-box-header">
@@ -34,6 +34,11 @@ function createPost() {
               </div>
             </div>
             <button className="CP__wrap-box-actions-button">Share</button>
+          </div>
+        </div>
+        <div className="CP__create">
+          <div className="CP__create-box">
+            
           </div>
         </div>
       </div>
