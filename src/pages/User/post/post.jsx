@@ -26,9 +26,9 @@ function Post() {
             <input type="text" disabled value={'Cuộc sống là những chuyến đi 😆😆'} />
           </div>
           <div className="Post__wrap-box-content">
-            <img src="https://scontent.fsgn5-10.fna.fbcdn.net/v/t39.30808-6/278279160_1400474630403514_4347005733089985135_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=730e14&_nc_ohc=IKuN7wt2VQAAX8X2jbf&tn=4jdssrC75T2CXFzh&_nc_ht=scontent.fsgn5-10.fna&oh=00_AT_S_sSGoWH15A7NiQ2tlsbc4QVY_WVVtA7OfLVHzum_Pw&oe=626953B6" alt="" />
-            <img src="https://scontent.fsgn5-8.fna.fbcdn.net/v/t39.30808-6/278243960_1400474613736849_853921073538639661_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=730e14&_nc_ohc=D88i6VBD7bcAX_oCGqH&_nc_ht=scontent.fsgn5-8.fna&oh=00_AT-sdbnjAryeKfKH7dmEqWbX4_pw3ny1S8RTAWeiw8-fjw&oe=626AD4F9" alt="" />
-            <img src="https://scontent.fsgn5-10.fna.fbcdn.net/v/t39.30808-6/278227345_1400474513736859_3382006249665150988_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=730e14&_nc_ohc=lxLhPs6E1jEAX_SahR4&_nc_ht=scontent.fsgn5-10.fna&oh=00_AT9pBomQbwunqexjljAvZf75N88MmnJsyttknw8d7OkMKQ&oe=626AC0DF" alt="" />
+            <img src="https://scontent.fdad3-3.fna.fbcdn.net/v/t39.30808-6/278243960_1400474613736849_853921073538639661_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=730e14&_nc_ohc=UN1u97HmNAcAX8ni5Jt&_nc_ht=scontent.fdad3-3.fna&oh=00_AT83hcpGpIJSgkj0zEwbgwQPt41etn5KlF1s4TZi5rq27w&oe=6272BDF9" alt="" />
+            <img src="https://scontent.fdad3-5.fna.fbcdn.net/v/t39.30808-6/278259025_1400475070403470_8401954302963703914_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=730e14&_nc_ohc=35aBx5lNlAcAX_7wjXG&tn=4jdssrC75T2CXFzh&_nc_ht=scontent.fdad3-5.fna&oh=00_AT8LylwjCWIZT_e9-iXKpAUhY9YV_PqrcwHj2whHa3t1hA&oe=6271BA07" alt="" />
+            <img src="https://scontent.fdad3-4.fna.fbcdn.net/v/t39.30808-6/278279160_1400474630403514_4347005733089985135_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=730e14&_nc_ohc=5GID27JlzpcAX85NYjs&_nc_ht=scontent.fdad3-4.fna&oh=00_AT8JmVelV6IrdquQrav1PvqjxPF4UFsUeQsA0pHFaRoSAA&oe=62713CB6" alt="" />
           </div>
           <div className="Post__wrap-box-actions">
             <div className="Post__wrap-box-actions-a" title='Like this post'>
